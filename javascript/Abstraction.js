@@ -68,7 +68,7 @@ function Computer(name, model) {
   }
 }
 
-const myPC = new Computer('MacBook', 'Pro');
+const myPC2 = new Computer('MacBook', 'Pro');
 myPC.startPC();    // Your MacBook Pro is starting...
 myPC.stopPC();    // Your MacBook Pro is shutting down...
 
@@ -87,3 +87,5 @@ function Computer(name, model) {
 const myPC = new Computer('MacBook', 'Pro');
 myPC.startPC();    // Your MacBook Pro is starting...
 myPC.stopPC();    // Your MacBook Pro is shutting down...
+
+
