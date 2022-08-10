@@ -45,3 +45,6 @@ class Son extends Father {
 
 const son1 = new Son();
 son.grandfatherProperty()          // আউটপুটঃ Grandfather's property
+
+
+
