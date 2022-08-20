@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>hello world</h1>
+    <p>my fast web </p>
+
+
+
+</body>
+<script>
+    for (var i = 1; i <= 5; i++) {
+        (function () {
+            var val = i;
+            setTimeout(() => console.log(val), 1000);
+        })();
+    }
+
+    function modifyBy2(arr) {
+        let output = [];
+
+        for (let i = 0; i < arr.length; i++) {
+            output.push(arr[i] + 2);
+        }
+
+        return output;
+    }
+
+    const newArr = modifyBy2([1, 2, 3, 4, 5, 6]);
+    console.log(newArr); // [3, 4, 5, 6, 7, 8]
+
+
+    function passByReference(person) {
+        person.name = "Alex";
+    }
+
+    var alam = { name: "Alam" };
+
+    console.log(alam.name);
+    // Alam
+
+    passByReference(alam);
+
+    console.log(alam.name);
+    // Alex
+
+
+    function Person(fName, lName, age) {
+        this._firstName = fName;
+        this._lastName = lName;
+        this._age = age;
+    }
+    function Student(fName, lName, age, roll, section) {
+        Person.apply(this, [fName, lName, age, roll, section]);
+        this._roll = roll;
+        this._section = section;
+    }
+    let std1 = new Student("Saroar Hossain", "Shahan", 25, 99, "B");
+    console.log(std1);
+
+    function convertToInteger(input) {
+        let result = Number.parseInt(input);
+        if (!result) {
+            return "This data can't be converted to integer."
+        } else {
+            return result;
+        }
+    }
+    let result = convertToInteger('25');
+    console.log(result);                   // 25
+    result = convertToInteger('String');
+    console.log(result);
+
+
+
+</script>
+
+
+
+</html>
