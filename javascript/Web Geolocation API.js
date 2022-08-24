@@ -30,7 +30,7 @@ function showError(error) {
   }
 }
 
-const x = document.getElementById("demo");
+const x1 = document.getElementById("demo");
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.watchPosition(showPosition);

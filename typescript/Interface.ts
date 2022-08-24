@@ -30,7 +30,7 @@ function printHello(): void {
 
 printHello();
 
-let x1: unknown = 'hello';
+let x4: unknown = 'hello';
 
 
 class Person {
