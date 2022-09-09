@@ -47,4 +47,4 @@ class Person {
       
 const person = new Person("Jane");
 
-console.log(person.getName()); // person.name isn't accessible from outside the class since it's private
+console.log(person.getName()); // person.name isn't accessible from outside the class since it's privat
