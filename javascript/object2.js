@@ -50,5 +50,10 @@ const users = {
   }
 }
 
-console.log( users.Alex.skills[4])
+for (let user of users){
+  user.skills.length
+}
+ 
+
+
 
