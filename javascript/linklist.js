@@ -90,7 +90,10 @@ class linkList {
 
 let myLinkedList = new linkList(10);
 myLinkedList.append(5);
-myLinkedList.prepend(1)
+myLinkedList.prepend(1);
+myLinkedList.append(19);
+myLinkedList.prepend(10);
+myLinkedList.append(5);
 
 
 
