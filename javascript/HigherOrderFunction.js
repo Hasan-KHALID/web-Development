@@ -32,3 +32,6 @@ const sumArray = arr => {
 
 }
 console.log(sumArray(numbers))
+
+
+
