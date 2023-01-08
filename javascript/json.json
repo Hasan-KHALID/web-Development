@@ -1,6 +1,40 @@
-{"employees":[
-  { "firstName":"John", "lastName":"Doe" },
-  { "firstName":"Anna", "lastName":"Smith" },
-  { "firstName":"Peter", "lastName":"Jones" }
-]}
 
+{
+  "event":
+  {
+    "eventid": "5365148102282573735",
+    "message":
+     {
+      "subscribers":
+      {
+        "subscriber":
+        [
+        {
+          "ksid": "4927562634448402412",
+          "ufid": "admin@kony.com",
+          "deviceId": "900ABC"
+        }
+        ]
+      },
+      "content":
+      {
+        "mimeType": "text/plain",
+        "priorityService": "false",
+        "eventNamePairs":
+        {
+          "key":
+          [
+          {
+            "name": "customerID",
+            "content": "95098444"
+          },
+          {
+            "name": "bankaccountno",
+            "content": "04851050099900"
+          }
+          ]
+        }
+      }
+    }
+  }
+}
